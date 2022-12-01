@@ -2,10 +2,12 @@
 from add_0 import add
 
 
-def main():
+if __name__ == "__main__":
+    """
+
+    Prints the result of the addition between two numbers
+
+    """
     a = 1
     b = 2
-    print('{} + {} = {}'.format(a, b, add(a, b)))
-
-if __name__ == "__main__":
-    main()
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
