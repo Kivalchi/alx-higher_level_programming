@@ -3,5 +3,5 @@
 
 
 class Square:
-        """ Declares a square class """
-        pass
+    """ Declares a square class """
+    pass
