@@ -1,8 +1,14 @@
 #!/usr/bin/python3
-def safe_print_integer(value):
-    try:
-        print("{:d}".format(value))
-    except (ValueError, TypeError):
-        return False
-    else:
-        return True
+# 0-square.py by Ehoneah Obed
+"""Defines a square """
+
+
+class Square:
+    """Represents a square"""
+
+    def __init__(self, size):
+    """Initializing this square class
+    Args: size - represnets the size of the square defined
+    """
+
+    self.__size = size
