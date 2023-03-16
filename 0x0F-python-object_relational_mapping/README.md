@@ -145,3 +145,4 @@ model_state.py	python file that contains the class definition of a State and an 
 13-model_state_delete_a.py	Python script that deletes all State objects with a name containing the letter a from the database hbtn_0e_6_usa
 model_city.py	Python file that contains the class definition of a City
 14-model_city_fetch_by_state.py	Python script that prints all City objects from the database hbtn_0e_14_usa
+
